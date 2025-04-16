@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple HTML5 Page with JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header, footer {
+      background-color: #f0f0f0;
+      padding: 15px;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+    .highlight {
+      color: white;
+      background-color: darkblue;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">My Simple HTML5 Page</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Welcome to My Page</h2>
+      <p>This is an example of a semantic HTML5 structure. It uses several elements that help describe the layout of the page more clearly.</p>
+    </article>
+
+    <section>
+      <h3>Latest Updates</h3>
+      <ul>
+        <li>Improved accessibility</li>
+        <li>Clean, semantic markup</li>
+        <li>Responsive layout</li>
+      </ul>
+    </section>
+
+    <button onclick="changeTitle()">Change Title</button>
+    <button onclick="toggleElement()">Add/Remove Extra Info</button>
+
+    <div id="extra-content-container"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Simple Page. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
